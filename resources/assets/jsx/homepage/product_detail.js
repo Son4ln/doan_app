@@ -114,7 +114,7 @@ export default class ProductDetail extends React.Component  {
                       <h5>Thông số: {this.state.product.parameter}</h5>
                     }
 
-                    <Link className="btn btn-success mb-3" to="">Liên hệ để đặt hàng</Link>
+                    <Link className="btn btn-success mb-3" to="/lien-he">Liên hệ để đặt hàng</Link>
                 </div>
 
               </div>

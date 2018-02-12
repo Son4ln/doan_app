@@ -24145,7 +24145,7 @@ var ProductDetail = function (_React$Component) {
                   ),
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
-                    { className: 'btn btn-success mb-3', to: '' },
+                    { className: 'btn btn-success mb-3', to: '/lien-he' },
                     'Li\xEAn h\u1EC7 \u0111\u1EC3 \u0111\u1EB7t h\xE0ng'
                   )
                 )
