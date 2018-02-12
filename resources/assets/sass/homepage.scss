@@ -1,0 +1,139 @@
+/*layout*/
+/*end layout*/
+
+/*navbar*/
+.home-navbar {
+  z-index: 9999;
+  
+  .nav-active {
+    border-bottom: solid 5px green;
+    font-weight: bold;
+  }
+
+  .nav-item:hover {
+    border-bottom: solid 5px green;
+    font-weight: bold;
+  }
+
+  .nav-item {
+    .nav-link {
+      padding: 15px 30px;
+      text-transform: uppercase;
+      i {
+        font-size: 20px;
+      }
+    }
+
+    a {
+      color: white !important;
+    }
+  }
+}
+/*end navbar*/
+
+/*general*/
+  .home-footer {
+    border-top:solid 1px #28a745;
+
+    span {
+      color: #28a745;
+      font-weight: bold;
+    }
+  }
+
+  .message {
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    width: 70px;
+    height: 70px;
+  }
+
+  .pr-loading {
+    font-size: 30px;
+    position: fixed;
+    right: 1%;
+    top: 2%;
+    z-index: 9999;
+    color: lightgrey;
+  }
+
+/*end general*/
+/*================HomePage====================*/
+/*search box*/
+.search-box {
+  height: 400px;
+  background-image: url('/images/searh-box-bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.search-form {
+  input {
+    height: 50px;
+  }
+
+  button {
+    height: 50px;
+  }
+}
+
+.search-result {
+  left: 50%;
+  right: 50%; 
+  top: 110%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  background: white;
+  width: 90%;
+  padding: 10px;
+  z-index: 8888;
+  max-height: 400px;
+  overflow-y: auto;
+  box-shadow: 3px 3px 5px black;
+}
+/*end search box*/
+
+/*aside left*/
+.cate-box {
+  .list-group .list-group-item {
+    border-radius: 0;
+  }
+}
+/*end aside left*/
+
+/*aside right*/
+.aside-right {
+  h4 {
+    border-bottom: solid 3px #28a745;
+  }
+}
+
+.product-box {
+  background-color: white;
+  padding: 10px 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
+  a {
+    color: white !important;
+  }
+}
+/*end aside right*/
+
+#carouselExampleIndicators .carousel-indicators {
+  li {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+
+  .active {
+    background: #28a745 !important;
+  }
+}
+
+#carouselExampleIndicators .carousel-indicators:hover li {
+  cursor: pointer;
+}
+
+/*================End HomePage====================*/
